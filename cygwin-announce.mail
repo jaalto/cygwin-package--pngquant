@@ -1,0 +1,67 @@
+-- Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later
+
+To: cygwin-announce@cygwin.com
+Subject: Updated: package N.N
+Subject: New package: pngquant 1.0-1 -- PNG image optimising utility
+
+PACKAGE DESCRIPTION
+===================
+
+Homepage: http://freshmeat.net/projects/pngquant
+License : GPL
+
+pngquant is a command-line conversion utility to quantize and dither
+truecolor PNG images, especially those with a full alpha channel, down
+to 8-bit (or smaller) RGBA-palette PNGs. Such images are usually two
+to four times smaller than the full 32-bit versions, and partial
+transparency is preserved quite nicely. This makes pngquant especially
+useful both for Web sites and for PlayStation 2 development, where one
+of the texture formats is RGBA-palette-based (though not
+PNG-compressed). This is the same technique used for many of the
+images on the Miscellaneous Transparent PNGs page
+(http://www.libpng.org/pub/png/pngs-img.html), and the results are
+often indistinguishable from the original, truecolor PNG images.
+
+
+CHANGES SINCE LAST RELEASE
+==========================
+
+See http://freshmeat.net/redir/pngquant/8200/url_changelog/pngquant.CHANGELOG
+
+INSTALL OR UPGRADE NOTES
+========================
+
+Standard install
+
+CYGWIN INSTALLATION INFORMATION
+===============================
+
+To install this package, click on the "Install Cygwin now" link on the
+<http://cygwin.com/> web page. This downloads setup.exe to your
+system. Then, run setup and answer all of the questions. You'll find
+the package listed in the "All" category. After installation, read the
+documentation at directories:
+
+    /usr/share/doc/<package-version>/*
+    /usr/share/doc/Cygwin/<package-version>.README
+
+If you have questions or comments, please send them to the Cygwin
+mailing list at <cygwin@cygwin.com>.
+
+CYGWIN-ANNOUNCE UNSUBSCRIBE INFO
+================================
+
+This message has been sent to cygwin-announce list.
+
+If you want to unsubscribe from the mailing list, look at the
+"List-Unsubscribe: " tag in the email header of this message. Send
+email to the address specified there. It will be in the format:
+
+    cygwin-announce-unsubscribe-you=yourdomain.com@cygwin.com
+
+More information on unsubscribing can be found:
+
+    http://sources.redhat.com/lists.html#unsubscribe-simple
+
+Please read *all* of the information on unsubscribing that is available
+starting at the above URL.

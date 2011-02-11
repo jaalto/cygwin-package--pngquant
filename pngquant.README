@@ -1,0 +1,89 @@
+pngquant
+------------------------------------------
+
+PNG image optimising utility
+
+pngquant is a command-line conversion utility to quantize and dither
+truecolor PNG images, especially those with a full alpha channel, down
+to 8-bit (or smaller) RGBA-palette PNGs. Such images are usually two
+to four times smaller than the full 32-bit versions, and partial
+transparency is preserved quite nicely. This makes pngquant especially
+useful both for Web sites and for PlayStation 2 development, where one
+of the texture formats is RGBA-palette-based (though not
+PNG-compressed). This is the same technique used for many of the
+images on the Miscellaneous Transparent PNGs page
+(http://www.libpng.org/pub/png/pngs-img.html), and the results are
+often indistinguishable from the original, truecolor PNG images.
+
+Runtime requirements:
+  cygwin
+  libpng12
+  zlib
+
+Build requirements:
+  cygwin
+  libpng12-devel
+  zlib
+
+Canonical homepage:
+  http://freshmeat.net/projects/pngquant
+  http://sourceforge.net/projects/png-mng
+  http://packages.debian.org/pngquant
+
+Canonical download:
+  See above
+
+Version control repository:
+
+Mailing list:
+  http://sourceforge.net/mail/?group_id=32355
+  <png-mng@lists.sourceforge.net>
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Author: Greg Roelofs <newt@pobox.com> <roelofs@users.sf.net>
+  Bugs: Greg Roelofs <newt@pobox.com>
+
+License:
+  Custom "as is"
+  See http://packages.debian.org/changelogs/pool/main/p/pngquant/pngquant_1.0-3/pngquant.copyright
+
+Language:
+  C
+
+------------------------------------
+
+Build instructions:
+  unpack pngquant-1.0-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./pngquant*.sh all
+
+This will create:
+  pngquant-1.0-1.tar.bz2
+  pngquant-1.0-1-src.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary distro:
+
+usr/bin/pngquant.exe
+usr/share/doc/Cygwin/pngquant-1.0.README
+usr/share/doc/pngquant-1.0/ChangeLog
+usr/share/doc/pngquant-1.0/README
+usr/share/man/man1/pngquant.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 1.0-1 -----
+- Initial release 2007-11-29 Jari Aalto
+- No manual page. Copied one from Debian.
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later

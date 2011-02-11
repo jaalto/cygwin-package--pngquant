@@ -1,0 +1,2 @@
+tag1: pngquant
+  http://packages.debian.org/unstable/pngquant pregexp:orig.tar.gz file:pngquant_1.0.orig.tar.gz new: x:

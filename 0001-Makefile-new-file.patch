@@ -1,0 +1,40 @@
+diff --git a/Makefile b/Makefile
+new file mode 100644
+index 0000000..a4e3f76
+--- /dev/null
++++ b/Makefile
+@@ -0,0 +1,34 @@
++MAKEFILE  = Makefile.unx
++
++DESTDIR		=
++prefix		= /usr
++exec_prefix	= $(prefix)
++man_prefix	= $(prefix)/share
++
++INSTALL		= /usr/bin/install
++INSTALL_BIN	= $(INSTALL) -m 755
++INSTALL_DATA	= $(INSTALL) -m 644
++INSTALL_OBJS	= pngquant
++
++MANDIR		= $(DESTDIR)$(man_prefix)/man/man1
++BINDIR		= $(DESTDIR)$(exec_prefix)/bin
++
++all:
++	$(MAKE) LDFLAGS="-lz -lm -lpng" -f $(MAKEFILE)
++
++distclean: clean
++
++clean:
++	make -f $(MAKEFILE) clean
++
++install-bin:
++	$(INSTALL_BIN) -d $(BINDIR)
++	$(INSTALL_BIN) -s $(INSTALL_OBJS) $(BINDIR)
++
++install-man:
++	$(INSTALL_BIN) -d $(MANDIR)
++	$(INSTALL_DATA) *.1 $(MANDIR)
++
++install: install-bin
++
++# End of file
