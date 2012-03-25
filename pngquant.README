@@ -16,7 +16,6 @@ images on the Miscellaneous Transparent PNGs page
 often indistinguishable from the original, truecolor PNG images.
 
 Runtime requirements:
-  libgcc1
   libpng14
   zlib0
 
@@ -25,30 +24,33 @@ Build requirements:
   zlib-devel
 
 Canonical homepage:
+  http://pngquant.org
   http://freshmeat.net/projects/pngquant
-  http://sourceforge.net/projects/png-mng
   http://packages.debian.org/pngquant
 
 Canonical download:
   See above
 
 Version control repository:
+  https://github.com/pornel/improved-pngquant
 
 Mailing list:
-  http://sourceforge.net/mail/?group_id=32355
-  <png-mng@lists.sourceforge.net>
 
 Forum / Wiki:
 
 IRC channel:
 
 Upstream contact:
-  Author: Greg Roelofs <newt@pobox.com> <roelofs@users.sf.net>
-  Bugs: Greg Roelofs <newt@pobox.com>
+  Author: Kornel Lesiński <pornel@pornel.net>
+  Bugs: https://github.com/pornel/improved-pngquant/issues
 
 License:
-  Custom "as is"
-  See http://packages.debian.org/changelogs/pool/main/p/pngquant/pngquant_1.0-3/pngquant.copyright
+  Custom
+
+  From COPYRIGHT:
+
+  "Note that both licenses are basically BSD-like; that is, use the
+   code however you like, as long as you acknowledge its origins."
 
 Language:
   C
@@ -56,15 +58,15 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack pngquant-1.0-2-src.tar.bz2
+  unpack pngquant-1.7.2-1-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./pngquant*.sh all
 
 This will create:
-  pngquant-1.0-2.tar.bz2
-  pngquant-1.0-2-src.tar.bz2
+  pngquant-1.7.2-1.tar.bz2
+  pngquant-1.7.2-1-src.tar.bz2
 
 -------------------------------------------
 
@@ -74,6 +76,9 @@ Files included in the binary distro:
 ------------------
 
 Port Notes:
+
+----- version 1.7.2-1 -----
+- New upstream release 2012-03-25 Jari Aalto
 
 ----- version 1.0-2 -----
 - Build against libpng14 2012-01-29 Jari Aalto

@@ -1,12 +1,12 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: pngquant 1.0-2 -- PNG image optimising utility
+Subject: Updated: pngquant 1.7.2-1 -- PNG image optimising utility
 --text follows this line--
 
 PACKAGE DESCRIPTION
 ===================
 
 Homepage: http://freshmeat.net/projects/pngquant
-License : GPL
+License : Custom. BSD-like: "use the code however you like"
 
 pngquant is a command-line conversion utility to quantize and dither
 truecolor PNG images, especially those with a full alpha channel, down
@@ -24,8 +24,7 @@ often indistinguishable from the original, truecolor PNG images.
 CHANGES SINCE LAST RELEASE
 ==========================
 
-Cygwin packaging: build against libpng14
-Upstream log at http://freshmeat.net/redir/pngquant/8200/url_changelog/pngquant.CHANGELOG
+See https://github.com/pornel/improved-pngquant/blob/master/CHANGELOG
 
 INSTALL OR UPGRADE NOTES
 ========================
