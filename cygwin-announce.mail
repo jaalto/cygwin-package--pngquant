@@ -1,5 +1,5 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: pngquant 1.7.2-2 -- PNG image optimising utility
+Subject: Updated: pngquant 1.8.3+20130305+git0e3fb62-1 -- PNG image optimising utility
 --text follows this line--
 
 PACKAGE DESCRIPTION
@@ -29,7 +29,7 @@ See https://github.com/pornel/improved-pngquant/blob/master/CHANGELOG
 INSTALL OR UPGRADE NOTES
 ========================
 
-Standard install; libpng15 update.
+Standard install.
 
 CYGWIN INSTALLATION INFORMATION
 ===============================

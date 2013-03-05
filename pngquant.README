@@ -32,7 +32,7 @@ Canonical download:
   See above
 
 Version control repository:
-  https://github.com/pornel/improved-pngquant
+  git://github.com/pornel/improved-pngquant
 
 Mailing list:
 
@@ -58,15 +58,15 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack pngquant-1.7.2-2-src.tar.bz2
+  unpack pngquant-1.8.3+20130305+git0e3fb62-1-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./pngquant*.sh all
 
 This will create:
-  pngquant-1.7.2-2.tar.bz2
-  pngquant-1.7.2-2-src.tar.bz2
+  pngquant-1.8.3+20130305+git0e3fb62-1.tar.bz2
+  pngquant-1.8.3+20130305+git0e3fb62-1-src.tar.bz2
 
 -------------------------------------------
 
@@ -76,6 +76,12 @@ Files included in the binary distro:
 ------------------
 
 Port Notes:
+
+----- version 1.8.3+20130305+git0e3fb62-1 -----
+- New upstream release 2013-03-05 Jari Aalto
+
+----- version 1.8.3+20130305+git0e3fb62-1 -----
+- New upstream release 2013-03-05 Jari Aalto
 
 ----- version 1.7.2-2 -----
 - libpng15 update 2012-09-15 Jari Aalto
@@ -91,4 +97,4 @@ Port Notes:
 - No manual page. Copied one from Debian.
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2007-2012 Jari Aalto; Licenced under GPL v2 or later
+Copyright (C) 2007-2013 Jari Aalto; Licenced under GPL v2 or later
