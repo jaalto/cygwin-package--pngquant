@@ -58,15 +58,15 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack pngquant-1.8.3+20130305+git0e3fb62-1-src.tar.bz2
+  unpack pngquant-2.0.20130820+git1e28372-1-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./pngquant*.sh all
 
 This will create:
-  pngquant-1.8.3+20130305+git0e3fb62-1.tar.bz2
-  pngquant-1.8.3+20130305+git0e3fb62-1-src.tar.bz2
+  pngquant-2.0.20130820+git1e28372-1.tar.bz2
+  pngquant-2.0.20130820+git1e28372-1-src.tar.bz2
 
 -------------------------------------------
 
@@ -76,6 +76,9 @@ Files included in the binary distro:
 ------------------
 
 Port Notes:
+
+----- version 2.0.20130820+git1e28372-1 -----
+- New upstream release 2013-09-20 Jari Aalto
 
 ----- version 1.8.3+20130305+git0e3fb62-1 -----
 - New upstream release 2013-03-05 Jari Aalto
