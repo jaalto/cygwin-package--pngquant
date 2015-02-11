@@ -11,4 +11,4 @@ images on the Miscellaneous Transparent PNGs page
 (http://www.libpng.org/pub/png/pngs-img.html), and the results are
 often indistinguishable from the original, truecolor PNG images."
 category: Graphics
-requires: libpng15
+requires: libpng16 liblcms2_2
