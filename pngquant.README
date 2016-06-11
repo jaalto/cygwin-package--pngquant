@@ -60,15 +60,15 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack pngquant-2.3.4+20150202+gitda59d79-1-src.tar.bz2
+  unpack pngquant-2.7.1+20160531+git5cc192e-1-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./pngquant*.sh all
 
 This will create:
-  pngquant-2.3.4+20150202+gitda59d79-1.tar.xz
-  pngquant-2.3.4+20150202+gitda59d79-1-src.tar.xz
+  pngquant-2.7.1+20160531+git5cc192e-1.tar.xz
+  pngquant-2.7.1+20160531+git5cc192e-1-src.tar.xz
 
 -------------------------------------------
 
@@ -78,6 +78,9 @@ Files included in the binary distro:
 ------------------
 
 Port Notes:
+
+----- version 2.7.1+20160531+git5cc192e-1 -----
+- New upstream release 2016-06-11 Jari Aalto
 
 ----- version 2.3.4+20150202+gitda59d79-1 -----
 - New upstream release 2015-02-11 Jari Aalto
@@ -111,4 +114,4 @@ Port Notes:
 - No manual page. Copied one from Debian.
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2007-2015 Jari Aalto; Licenced under GPL v2 or later
+Copyright (C) 2007-2016 Jari Aalto; Licenced under GPL v2 or later
