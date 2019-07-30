@@ -34,7 +34,7 @@ Canonical download:
   See above
 
 Version control repository:
-  git://github.com/pornel/improved-pngquant
+  git clone -recursive git://github.com/pornel/improved-pngquant
 
 Mailing list:
 
