@@ -60,15 +60,15 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack pngquant-2.12.6+20191230+git7ffdc41-1-src.tar.bz2
+  unpack pngquant-2.17.0+20191230+git7ffdc41-1-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./pngquant*.sh all
 
 This will create:
-  pngquant-2.12.6+20191230+git7ffdc41-1.tar.xz
-  pngquant-2.12.6+20191230+git7ffdc41-1-src.tar.xz
+  pngquant-2.17.0+20191230+git7ffdc41-1.tar.xz
+  pngquant-2.17.0+20191230+git7ffdc41-1-src.tar.xz
 
 -------------------------------------------
 
@@ -78,6 +78,9 @@ Files included in the binary distro:
 ------------------
 
 Port Notes:
+
+----- version 2.17.0+20191230+git7ffdc41-1 -----
+- New upstream release 2022-06-24 Jari Aalto
 
 ----- version 2.12.6+20191230+git7ffdc41-1 -----
 - New upstream release 2020-05-05 Jari Aalto
@@ -123,4 +126,4 @@ Port Notes:
 - No manual page. Copied one from Debian.
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2007-2020 Jari Aalto; Licenced under GPL v2 or later
+Copyright (C) 2007-2022 Jari Aalto; Licenced under GPL v2 or later
