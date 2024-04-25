@@ -23,6 +23,7 @@ Runtime requirements:
 Build requirements:
   libpng16-devel
   liblcms2-devel
+  libopenmp-devel
   zlib-devel
 
 Canonical homepage:
