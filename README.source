@@ -1,0 +1,29 @@
+HOW TO PACKAGE SOURCES FROM GIT REPOSITORY
+
+git clone -recursive git://github.com/pornel/improved-pngquant upstream.git
+
+# From Git, make a tar package
+# NOTE: this comman is private to Package Developer, use
+# something similar
+gt tar -q -z -t -c -p pngquant-2.12.5+ master
+
+# After creating file like
+# PKG=pngquant-3.0.3+20171102+git7ffdc41.tar.gz
+
+tar -xf $PKG
+
+# NEXT step:
+# 1. Need to copy upstream.git/lib directory
+# 2. repack the tar archive with it
+
+cd TARDIR
+cp -r ../upstream.git/lib .
+cd ..
+rm $PKG
+
+# NOTE: Developer's private command to tar up directory,
+# use something similar.
+_tar -d TARDIR
+
+# End of file
+
