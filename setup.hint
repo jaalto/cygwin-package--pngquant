@@ -12,4 +12,4 @@ images on the Miscellaneous Transparent PNGs page
 often indistinguishable from the original, truecolor PNG images."
 category: Graphics
 requires: libpng16 liblcms2_2
-license: BSD
+license: BSD-2-clause
